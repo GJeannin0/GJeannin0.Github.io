@@ -4,7 +4,7 @@ My name is Guillaume Jeannin, I'm a student at the SAE Institute of Geneva in Ga
 For the computer's graphics module, our class worked on creating a Minecraft like in a custom game engine in C++.
 In this project, my mission was to implement a Frustum Culling system.
 
-![](https://github.com/GJeannin0/Gjeannin0.github.io/blob/master/Images/frustum.jpg)
+![](https://github.com/GJeannin0/Gjeannin0.github.io/blob/master/Images/frustum.png)
 
 # Minecraft like Context
 
@@ -26,7 +26,7 @@ To represent the frustum, I coded a struct defining a plane by a point and its n
 To know wich side of the plane is outside of the frustum, the normal of each plane always points towards inside of the frustum.
 I generate it by getting the values defining the field of view from the camera.
 
-![](https://github.com/GJeannin0/Gjeannin0.github.io/blob/master/Images/cam.jpg)
+![](https://github.com/GJeannin0/Gjeannin0.github.io/blob/master/Images/cam.png)
 
 I then calculate the requiered vertices positions and define each plane with the three corresponding vertices.
 
