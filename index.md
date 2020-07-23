@@ -4,7 +4,7 @@ My name is Guillaume Jeannin, I'm a student at the SAE Institute of Geneva in Ga
 For the computer's graphics module, our class worked on creating a Minecraft like in a custom game engine in C++.
 In this project, my mission was to implement a Frustum Culling system.
 
-![](https://github.com/GJeannin0/Gjeannin0.github.io/blob/master/Images/frustum.png)
+![](https://github.com/GJeannin0/GJeannin0.Github.io/blob/master/Images/frustum.png)
 
 # Minecraft like Context
 
