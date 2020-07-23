@@ -5,6 +5,7 @@ For the computer's graphics module, our class worked on creating a Minecraft lik
 In this project, my mission was to implement a Frustum Culling system.
 
 ![](https://github.com/GJeannin0/GJeannin0.Github.io/blob/master/images/frustum.png)
+![Frustum](/images/frustum.png)
 
 # Minecraft like Context
 
