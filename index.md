@@ -8,7 +8,7 @@ In this project, my mission was to implement a Frustum Culling system.
 
 # Minecraft like Context
 
-![Frustum](/images/mclike.png)
+![Chunks](/images/mclike.png)
 
 In our Minecraft like game, the player plays in an endless open world where the terrain is procedurally generated.
 The terrain is composed of blocks and subdivided in several cubic chunks.
@@ -16,7 +16,7 @@ The place these chunks and blocks take in space is defined in an axis aligned bo
 
 In this context it is important to save performance, one way to do it is by rendering only what's in the player's field of view.
 
-![Frustum](/images/fov.png)
+![FOV](/images/fov.jpg)
 
 The shape of the field of view is this kind of truncated cone shape, and it's called a frustum.
 
@@ -26,7 +26,7 @@ To represent the frustum, I coded a struct defining a plane by a point and its n
 To know wich side of the plane is outside of the frustum, the normal of each plane always points towards inside of the frustum.
 I generate it by getting the values defining the field of view from the camera.
 
-![Frustum](/images/cam.png)
+![Camera](/images/cam.png)
 
 I then calculate the requiered vertices positions and define each plane with the three corresponding vertices.
 
