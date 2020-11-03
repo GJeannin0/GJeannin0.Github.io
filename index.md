@@ -8,6 +8,7 @@ Super Smash Volley-Ball is an online 2D game where stickmen play volley-ball tog
 
 ### Character
 The game is playable on pc, each player control his stickman using directionnal keys and the space bar.
+The terrain is flat with a vollayball net at the center.
 
 ### Controls
 Each stickman can move by going left, right and by jumping using the according keys and space to jump. 
@@ -24,4 +25,7 @@ The camera will show the whole terrain all the time, and will shake when a playe
 ## Network challenges
 
 SSVB's will use the rollback system of the neko engine for its networking.
+It works using a single server and clients connecting to it, only the server controls the state of the game using the inputs sent by the clients.  
+
 The interactions between players will be focused around the ball, thus letting some time for the ball to reach the other side of the field and helping delay issues in case of high latency.
+
