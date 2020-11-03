@@ -12,8 +12,8 @@ The game is playable on pc, each player control his stickman using directionnal 
 ### Controls
 Each stickman can move by going left, right and by jumping using the according keys and space to jump. 
 Each stickman have 2 ways of hitting the ball, they can perform a forearm blow and a smash on the ball using repspectively up and down keys.
-![Volley1](/images/voley1.png)
-![Volley2](/images/voley2.jpg)
+![Volley1](/images/volley1.png)
+![Volleyball](/images/volleyball.png)
 
 A game is won by winning 3 rounds, a round is won when the ball hits the ground on a side of the terrain, giving one point to the player of the opposite side.
 At the beginning of each round the ball spawns above the engaging player.
