@@ -24,7 +24,8 @@ The camera will show the whole terrain all the time, and will shake when a playe
 
 ## Network challenges
 
-SSVB will use the rollback system of the neko engine for its networking.
+The main challenge is making sure the state of the game is the same for every player.
+SSVB uses the rollback system of the neko engine for its networking.
 It works using a single server and clients connecting to it, only the server controls the state of the game using the inputs sent by the clients.  
 
 The interactions between players will be focused around the ball, thus letting some time for the ball to reach the other side of the field and helping delay issues in case of high latency.
