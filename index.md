@@ -1,50 +1,24 @@
-# SUPER SMASH VOLLEY-BALL Technical Document
+# Inspector Aer Editor Tool Technical Document
 
-## Pitch
+## Role
 
-Super Smash Volley-Ball is an online 2D game on PC where stickmen play volley-ball together.
+Window where the user can see and modify components and attributes of the scene's entities.
 
-## Gameplay
+## Client
 
-Each player controls a stickman that can move left and right, serve, and hit the ball.
-Players respectively use arrow keys + ctrl and WASD + spacebar.
-Spacebar/control is for engaging, it spawns the ball on the side of the serving player.
+The tool will be used by the third year students to view and modify entities components in the neko engine.
 
-Stickmen do rotate when they accelerate, because it looks more fun.
-Stickmen move by accelerating towards the left or the right and their speed is capped to a maximum speed.
-Stickmen are bound to the field's borders and cannot move outside of it.
-The ball has ballistic movement and is also bound to the field's borders.
+## State of the tool
 
-Stickmen automaticaly hit the ball each time they contact the ball.
-Players score a point when the ball hits the ground on the opposite side. (Note : Points currently aren't registered when scored)
-The first player to score 3 points wins the game.
+As of now only a part of the graphic interface is implemented.
 
-The camera shows the whole terrain all the time.
+![Inspector](/images/Insepctor.png)
 
-![Volley1](/images/volley1.png)
+It shows an exemple of how a transform component would be displayed.
 
-## Network challenges
+## How does it work
 
-The main challenge is making sure the state of the game is the same for every player.
-SSVB uses the rollback system of the neko engine for its networking.
-It works using a single server and clients connecting to it, only the server controls the state of the game using the inputs sent by the clients.  
+It should select an entity via the Hierarchy, access its components and display each component of the entity on the interface.
+For each component type the inspector displays a specific interface for each parameter to be modifiable
 
-The interactions between players are focused around the ball, thus letting some time for the ball to reach the other side of the field and helping delay issues in case of high latency.
-High latency only causes others players to teleport when changing direction, and the game keeps running without issues despite that.
-
-I started making the game by working from the asteroid game.
-Tweaking elements to better understand how the rollback system works.
-
-From there I managed to implement my own features, ballistic trajectory, acceleration, map borders.
-I couldn't implement all the features I originaly wanted in the given time, so I focused on getting a minimum viable product looking like a Tennis for two clone.
-
-## Flaws and possible Improvements
-
-Additional features like smash, screenshake and jump.
-The point system currently doesn't work properly.
-The MVP gameplay is here, but the game doesn't tell when a player scores a point or who's turn it is to serve.
-This allows players to spawn volley balls whenever they want. 
-High latency can cause lots of teleporting when a lagging player keeps alternating left and right, resyncs could be more fluid.
-
-The field is unclear, the borders are not showing and there is no net in the middle.
-There could be sprite changes when a player changes direction or hits the ball.
+However the tool is currently incomplete, and the majority of this process isn't implemented yet.
