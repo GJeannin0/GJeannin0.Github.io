@@ -12,7 +12,7 @@ The tool will be used by the third year students to view and modify entities com
 
 As of now only a part of the graphic interface is implemented.
 
-![Inspector](/images/Insepctor.png)
+![inspector](/images/Inspector.png)
 
 It shows an exemple of how a transform component would be displayed.
 
@@ -22,3 +22,6 @@ It should select an entity via the Hierarchy, access its components and display 
 For each component type the inspector displays a specific interface for each parameter to be modifiable
 
 However the tool is currently incomplete, and the majority of this process isn't implemented yet.
+
+Code : https://github.com/SAE-Institute-Geneva/AerRacers.git 
+Branch : tool/engine/inspector_hierarchy_prefab
