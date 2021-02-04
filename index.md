@@ -24,16 +24,16 @@ The components part contains buttons to add any component to the entity, and sho
 
 It uses the hierarchy to select an entity, from there it displays the entity's components.
 
-![transform](/images/Transform.png)
+![transform](/images/transform.png)
 
 Then it accesses the existing tags and layers vectors from the sceneManager, and convert them to a char* array for ImGUI to use in a dropdown.
 To create a new tag or layer the user can type a name and then press the add button below the text input, the inspector then create the new tag or layer via the sceneManager.
 
-![tag](/images/Tag.png)
+![tag](/images/tag.png)
 
 There is an add and a delete button for every component type, the delete buttons are only visible on entities that have the corresponding component.
 
-![buttons](/images/Buttons.png)
+![buttons](/images/buttons.png)
 
 
 Code : https://github.com/SAE-Institute-Geneva/AerRacers.git 
