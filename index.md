@@ -18,7 +18,7 @@ The tool is finished.
 
 It displays the tag and layer lists in dropdowns, the user can set the tag and layer of an entity by selecting one in the dropdown.
 The components part contains buttons to add any component to the entity, and shows a delete button for each component the entity has.
-
+It can be tested by running the test_hierarchy in aer_lib_Test. 
 
 ## How does it work
 
