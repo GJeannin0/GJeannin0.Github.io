@@ -2,26 +2,39 @@
 
 ## Role
 
-Window where the user can see and modify components and attributes of the scene's entities.
+It's a window where the user can see and modify components and attributes of the scene's entities.
+My task was to implement the UI for adding and removing components and to display, change and add layers & tags to entities.
 
 ## Client
 
-The tool will be used by the third year students to view and modify entities components in the neko engine.
+The tool will be used by the third year students to view and modify entities and their components in the neko engine.
+My referent for the tool is Lucas Floreau, he's the lead programmer of the project.
 
 ## State of the tool
 
-As of now only a part of the graphic interface is implemented.
+The tool is finished.
 
 ![inspector](/images/Inspector.png)
 
-It shows an exemple of how a transform component would be displayed.
+It displays the tag and layer lists in dropdowns, the user can set the tag and layer of an entity by selecting one in the dropdown.
+The components part contains buttons to add any component to the entity, and shows a delete button for each component the entity has.
+
 
 ## How does it work
 
-It should select an entity via the Hierarchy, access its components and display each component of the entity on the interface.
-For each component type the inspector displays a specific interface for each parameter to be modifiable
+It uses the hierarchy to select an entity, from there it displays the entity's components.
 
-However the tool is currently incomplete, and the majority of this process isn't implemented yet.
+![transformExample](/images/Transform.png)
+
+Then it accesses the existing tags and layers vectors from the sceneManager, and convert them to a char* array for ImGUI to use in a dropdown.
+To create a new tag or layer the user can type a name and then press the add button below the text input, the inspector then create the new tag or layer via the sceneManager.
+
+![tagAdd](/images/Tag.png)
+
+There is an add and a delete button for every component type, the delete buttons are only visible on entities that have the corresponding component.
+
+![buttons](/images/Buttons.png)
+
 
 Code : https://github.com/SAE-Institute-Geneva/AerRacers.git 
-Branch : tool/engine/inspector_hierarchy_prefab
+Branch : tool/engine/inspector_hierarchy_hot_fix
