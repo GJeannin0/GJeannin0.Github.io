@@ -76,6 +76,6 @@ In openGL it only takes 3 lines of code to enable backface culling
 ## Model Instancing
 For optimisation purposes, I instanciate the models
 
-Instancing consist of drawing the same meshe multiple times using the same vertex data with a single draw call, it's usefull when drawing the same meshes multiple times as drawcalls are most often more costly than drawing the actual mesh.
+Instancing consists of drawing the same meshe multiple times using the same vertex data with a single draw call, it's usefull when drawing the same meshes multiple times as drawcalls are most often more costly than drawing the actual mesh.
 
 https://learnopengl.com/Advanced-OpenGL/Instancing
