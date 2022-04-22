@@ -17,7 +17,7 @@ I then had to share my progress with the rest of the team during our weekly meet
 
 What helped me improve this is the daily messages we used to share what we did on the project everyday. It helped me getting used to the process of communicating what I did and participating more frequently in these exchanges.
 
-##Collaborating on a task
+## Collaborating on a task
 
 I sometimes had to ask for help on some tasks, and I learned to do it more often during the project. Because I understood how valuable and effective it is while deciding myself way more than when being told to ask for help. I even had some interesting conversations about how we should implement a feature, sharing ideas and figuring out the best way to do it.
 
