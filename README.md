@@ -2,7 +2,7 @@
 
 ## [Communication](https://GJeannin0.github.io/Communication)
 
-## [TouristBoat](https://GJeannin0.github.io/TouristBoat)
+## [TouristsBoat](https://GJeannin0.github.io/TouristBoat)
 
 ## [GridSystem](https://GJeannin0.github.io/GridSystem)
 
