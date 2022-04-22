@@ -1,3 +1,3 @@
 # GJeannin0.github.io
 
-## [GridSystem](https://LoshkinOleg.github.io/GridSystem)
+## [GridSystem](https://GJeannin0.github.io/GridSystem)
