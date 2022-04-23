@@ -6,6 +6,12 @@ As part of the 3rd bachelor year’s curriculum, students of the Games Programmi
 
 At the begining of the project I was tasked to investigate what solutions were available to implement a grid system in unreal engine 4.
 
-## Requierments
+## The grid
 
-I considered that we could need thousands of tiles in a city builder, so
+During my research I considered that we could need thousands of tiles in a city builder, and I found an adequate solution on https://www.youtube.com/c/ReidsChannel
+
+It consists of drawing produral meshes to create the shape of the grid. 
+
+The shape of the grid is customizable, the size of lines, of tiles, height and length of the grid, it suits needs for any shape of grid we could use.
+
+
