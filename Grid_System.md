@@ -8,10 +8,14 @@ At the begining of the project I was tasked to investigate what solutions were a
 
 ## The grid
 
-During my research I considered that we could need thousands of tiles in a city builder, and I found an adequate solution on https://www.youtube.com/c/ReidsChannel
+During my research I considered that we could need thousands of tiles in a city builder, and I found an adequate solution on https://www.youtube.com/c/ReidsChannel and I decided to implement it on my side to test it out.
 
 It consists of drawing produral meshes to create the shape of the grid. 
 
 The shape of the grid is customizable, the size of lines, of tiles, height and length of the grid, it suits needs for any shape of grid we could use.
+![Grid](/images/grid1.png)
+![Grid](/images/grid2.png)
 
+It also displays wich tile the cursor is pointing to.
 
+It would have requiered more work to couple the grid with the tiles logic system but it could have been implemented. Unfortunately the grid wasn't implemented in the final project.
